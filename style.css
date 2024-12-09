@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,237,253,1) 50%, rgba(241,169,52,1) 100%);
+    margin: 0;
+}
+.bar{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    align-items: center;
+    position: relative;
+    top: 0px;
+}
+.option span
+{   
+    border: none;
+    color: aqua;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    text-decoration: none;
+    
+}
+
+h1{
+    font-size: 2rem;
+    color: chartreuse;
+}
+.search{
+    width: 20rem;
+    height: 2rem;
+    border-radius: 10px;
+    padding: 2px;
+    max-width: 60%;
+}
+.button{
+    height: 2rem;
+    background-color: aquamarine;
+    border-radius: 20%;
+    padding: 2px;
+}
+.hero
+{
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-top: 10px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 20px;
+   
+}
+.hero p{
+   color: rgba(222, 71, 33, 0.5);
+}
+.bollywood ,.hollywood , .tollywood{
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    margin-top: 1rem;
+}
+
+
+
+.card
+{
+    
+    border-radius: 10px;
+    justify-content: center;
+   
+    
+
+}
+.img{
+    height: 25rem;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card{
+    border: 2px solid rgb(224, 137, 137);
+    padding: 0.5rem;
+    background-color: rgba(215, 217, 212, 0.238);
+    border-radius: 10px;
+    margin: 0.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.card:hover
+{
+    background-color: rgba(157, 62, 229, 0.4);
+    border-color: rgba(211, 211, 145, 0.6);
+}
+.bolly ,.holly , .tolly,.Cricket,.football,.others,.series{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    padding: 1vw;
+    margin-top: 2vw;
+   
+    
+   
+}
+.sproto,.movo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(237,227,22,1) 1%, rgba(98,234,93,1) 35%, rgba(29,237,253,1) 50%, rgba(44,242,67,1) 53%, rgba(242,15,96,1) 92%, rgba(52,227,241,1) 100%);
+
+}
+.cricket
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cri{
+    width: 45rem;
+    max-width: 100%;
+    object-fit: cover
+
+}
+.crick{
+    border: 2px solid rgb(224, 137, 137);
+    padding: 0.5rem;
+    background-color: rgba(215, 217, 212, 0.238);
+    border-radius: 10px;
+    margin: 0.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 30vw;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.crick:hover{
+    background-color: rgba(157, 62, 229, 0.4);
+    border-color: rgba(211, 211, 145, 0.6);
+
+
+}
+.movies{
+    overflow-x: scroll;
+}
+.one{
+    width: 100vw;
+    display: flex;
+    overflow-x: scroll;
+    background-color: rgba(119, 255, 204, 0.56)
+    padding: 3vw;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.imgg{
+    width: 25vw;
+    
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+.two{
+    width: 100vw;
+    display: flex;
+    overflow-x: scroll;
+    background-color: rgb(196, 251, 255);
+    padding: 3vw;
+    border-radius: 10px;
+    border: 2px solid black;
+}
